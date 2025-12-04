@@ -1,0 +1,430 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.12f1 (e89d5df0e333) revision 15244637'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16085 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-huynh" at "2025-12-04T13:01:02.3044001Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-04T13:01:02Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/huynh/OneDrive/Desktop/Create with Code/Counter
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56587
+-licensingIpc
+LicenseClient-huynh
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/huynh/OneDrive/Desktop/Create with Code/Counter
+C:/Users/huynh/OneDrive/Desktop/Create with Code/Counter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16476]  Target information:
+
+Player connection [16476]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2890662896 [EditorId] 2890662896 [Version] 1048832 [Id] WindowsEditor(7,CHAU_CHAU_NHOPE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16476] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.12f1 (e89d5df0e333)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/huynh/OneDrive/Desktop/Create with Code/Counter/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-huynh"
+[Licensing::IpcConnector] LicenseClient-huynh channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-huynh-6000.2.12" at "2025-12-04T13:01:04.8450896Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              7e2aec2568a94298862433db3080a360
+  Correlation Id:          623dd6c45b61917fd20a7123052e7f37
+  External correlation Id: 9164091068359598289
+  Machine Id:              6VZaOuUClhuE+k706Xi8j06Qklk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-huynh-6000.2.12" (connect: 0.00s, validation: 0.00s, handshake: 2.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-huynh-6000.2.12-notifications" at "2025-12-04T13:01:06.8984614Z"
+[Licensing::Module] Licensing Background thread has ended after 4.59s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.466271 seconds.
+- Loaded All Assemblies, in 13.446 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 13974ms
+	BeginReloadAssembly (10520ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (652ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (525ms)
+	LoadAllAssembliesAndSetupDomain (1729ms)
+		LoadAssemblies (10523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1715ms)
+			TypeCache.Refresh (1713ms)
+				TypeCache.ScanAssembly (1315ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (87ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968330778315-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in 10.348 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.403 seconds
+Domain Reload Profiling: 11747ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (10002ms)
+		LoadAssemblies (9488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (615ms)
+			TypeCache.Refresh (546ms)
+				TypeCache.ScanAssembly (530ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1403ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6125 unused Assets / (3.8 MB). Loaded Objects now: 6821.
+Memory consumption went from 134.1 MB to 130.3 MB.
+Total: 10.372700 ms (FindLiveObjects: 0.725700 ms CreateObjectMapping: 0.713200 ms MarkObjects: 6.287100 ms  DeleteObjects: 2.644200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 881.111451 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfcc09192dcd6aaadcd722b37e59466f') in 0.1944366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc7e1b755ebedaa335205b9d35267d0a') in 0.0159052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aeec270f29b761be2ca1cebc2fb2ed4') in 0.0900251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.546455 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(d19b2cb4293921343b522f579441b8c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Material.mat using Guid(d19b2cb4293921343b522f579441b8c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '658735d1e3b02061fb1f40091a36ea64') in 0.0346682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.787166 seconds.
+  path: Assets/Wooden Boxes/Textures/Box1.2/HDRP URP ARM/Box1.2_MaskMap.png
+  artifactKey: Guid(772031c8b2031b446b6e1d7a54c6fe5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures/Box1.2/HDRP URP ARM/Box1.2_MaskMap.png using Guid(772031c8b2031b446b6e1d7a54c6fe5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '721a7004f7cc38de137c01026791075d') in 0.0333045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wooden Boxes/Prefabs/Box3 Obj.prefab
+  artifactKey: Guid(31eb8e8de1cd4374b98fd78634481f05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Prefabs/Box3 Obj.prefab using Guid(31eb8e8de1cd4374b98fd78634481f05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d36286e031fb90315ea1d1a3d4acc40') in 0.037747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wooden Boxes
+  artifactKey: Guid(94d5b6ecd4fc8a149bd3577fb5a69035) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes using Guid(94d5b6ecd4fc8a149bd3577fb5a69035) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e76748eeefbab464660cf5756760bda') in 0.0161893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wooden Boxes/Textures/Box1.2/HDRP URP ARM
+  artifactKey: Guid(2beef21a970f62b439450ad44a763c7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures/Box1.2/HDRP URP ARM using Guid(2beef21a970f62b439450ad44a763c7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf523715be66d5db0315f61400a785e8') in 0.014248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Wooden Boxes/Prefabs/Box3_lid.prefab
+  artifactKey: Guid(9576181e6fd8e734798d44f0d88d1507) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Prefabs/Box3_lid.prefab using Guid(9576181e6fd8e734798d44f0d88d1507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac3fc5cc3e7190c30c2e359551194bee') in 0.0425738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wooden Boxes/Mesh/Box1.fbx
+  artifactKey: Guid(133d1e2e7c752d14fa204f2acc8e31c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Mesh/Box1.fbx using Guid(133d1e2e7c752d14fa204f2acc8e31c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1df82e3a18e737059f92064642e03480') in 0.0421435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wooden Boxes/Mesh/Box1.obj
+  artifactKey: Guid(68a180b6294a79045ba98f2ad8b35981) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Mesh/Box1.obj using Guid(68a180b6294a79045ba98f2ad8b35981) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47e0f941f9b31eb7227f296b4092bfae') in 0.0369776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Wooden Boxes/Materials/Box3.mat
+  artifactKey: Guid(d0baf8beea6419346a8f6bc41366993f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Materials/Box3.mat using Guid(d0baf8beea6419346a8f6bc41366993f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17cc1d88e0801cb84284fdb679ecd209') in 0.1036563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wooden Boxes/Textures/Box1.2/Normal_Box1.2.png
+  artifactKey: Guid(43cb0af27ea617a4ab9783e477aae62c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures/Box1.2/Normal_Box1.2.png using Guid(43cb0af27ea617a4ab9783e477aae62c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e78895ffeaeeb5fd58b3873f17b73a17') in 0.027674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wooden Boxes/Boxes Demo.unity
+  artifactKey: Guid(e7293c3160eb33648b2f1febf3967d64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Boxes Demo.unity using Guid(e7293c3160eb33648b2f1febf3967d64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f952c22c80edb8f2cc151d3fb3b0a53') in 0.0174859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Wooden Boxes/Textures/Box3/HDRP URP/Box3_MaskMap.png
+  artifactKey: Guid(1085b7c8c71e09e48acbc210f15a74c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures/Box3/HDRP URP/Box3_MaskMap.png using Guid(1085b7c8c71e09e48acbc210f15a74c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffa6092ad4a8124c37ec93f32b1f6d01') in 0.026801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Wooden Boxes/Textures/Box1.2/Box1.2_Roughness.png
+  artifactKey: Guid(a33a64e4a85f9104988aee0264155784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures/Box1.2/Box1.2_Roughness.png using Guid(a33a64e4a85f9104988aee0264155784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43f3cccb2d4131bf0cedbdc52b45f237') in 0.0353464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wooden Boxes/Textures
+  artifactKey: Guid(a4d60cd6607bb944fb98c73df0cfd5d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures using Guid(a4d60cd6607bb944fb98c73df0cfd5d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdbeb576efe5a6d1917501d9b0c4c0dd') in 0.0162224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wooden Boxes/Mesh/Box2.fbx
+  artifactKey: Guid(3da7ef9b758a90141a46d294298c26a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Mesh/Box2.fbx using Guid(3da7ef9b758a90141a46d294298c26a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20c0170a4133444d9278d139dd568f46') in 0.0350187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wooden Boxes/Prefabs
+  artifactKey: Guid(8cb698ed1b48a3d4c99681dfc6ce8a45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Prefabs using Guid(8cb698ed1b48a3d4c99681dfc6ce8a45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd142b2f2f81914729c06d72f66938d2a') in 0.0139522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wooden Boxes/Prefabs/Box3_lid Obj.prefab
+  artifactKey: Guid(03fcc4fc2d19aca429957ae785ab0107) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Prefabs/Box3_lid Obj.prefab using Guid(03fcc4fc2d19aca429957ae785ab0107) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a343bcfff67293f7db0c0b3ab436e1f7') in 0.0409616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wooden Boxes/Prefabs/Box1.prefab
+  artifactKey: Guid(3f68fa2d6080b4544b81557757aca2e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Prefabs/Box1.prefab using Guid(3f68fa2d6080b4544b81557757aca2e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0216b9691b85d5cd17f6b1a81de5858e') in 0.0257002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Wooden Boxes/Materials/Box1.2.mat
+  artifactKey: Guid(21d1afeca5cf4b845aa9e5a7c6cf9ade) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Materials/Box1.2.mat using Guid(21d1afeca5cf4b845aa9e5a7c6cf9ade) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d7bd491cf5c565096de19817ece9293') in 0.0315665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wooden Boxes/Mesh
+  artifactKey: Guid(7c8672faa967caf4b9f3134ab585c729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Mesh using Guid(7c8672faa967caf4b9f3134ab585c729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87adbfe80d4bfd5529449fbc13b48384') in 0.0146609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wooden Boxes/Textures/Box3/HDRP URP/Box3_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(43f7a366a93bffa4bb5079168cf105cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures/Box3/HDRP URP/Box3_OcclusionRoughnessMetallic.png using Guid(43f7a366a93bffa4bb5079168cf105cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd385634c245fa6ecef3f4368f9353507') in 0.0283495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wooden Boxes/Prefabs/Box3.prefab
+  artifactKey: Guid(d40a902125c04c6488fa0fd892d72f6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Prefabs/Box3.prefab using Guid(d40a902125c04c6488fa0fd892d72f6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45ea100ef8ba4bf7e8d379d39d44e555') in 0.0203195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wooden Boxes/Textures/Box1.2/Metall_Box1.2.png
+  artifactKey: Guid(27ab8780c03340d4eb23414bfbd50757) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wooden Boxes/Textures/Box1.2/Metall_Box1.2.png using Guid(27ab8780c03340d4eb23414bfbd50757) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dd74450ccd0ac66ec759c4a197889d8') in 0.0328824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
